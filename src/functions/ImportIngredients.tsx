@@ -16,9 +16,10 @@ interface IIngredients {
 
 export default function({props}:{props:IIngredients}){
  const[selected, setSelect] = useState(0); 
- //TODO - Functional ADD and REMOVE   
+ //TODO - Functional ADD and REMOVE  
+ //TODO - Replace cards with something more efficient and compact 
 return (
-    <CCol>
+<CCol>
 <CCard 
 textColor='dark'
 className={`mb-3 border-dark`}
